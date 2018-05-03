@@ -1,0 +1,11 @@
+
+# BEGIN WordPress
+RewriteEngine On
+<IfModule mod_rewrite.c> 
+RewriteRule ^index\.php$ - [L] 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule . /eventos/index.php [L] 
+</IfModule> 
+ 
+# END WordPress

@@ -1,0 +1,7 @@
+User-agent: * 
+Crawl-delay: 3600 
+Disallow: /eventos/wp-admin
+Disallow: /eventos/wp-includes
+Disallow: /eventos/wp-content/plugins
+Disallow: /eventos/wp-content/cache
+Disallow: /eventos/wp-content/themes
